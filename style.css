@@ -1,0 +1,123 @@
+:root{
+    --color-dark-blue:#1f2937;
+    --color-blue:#3882f6;
+    --color-gray:#e5e7eb;
+    --color-white:#ffffff;
+}
+*,*::after,*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.5rem 2rem;
+}
+
+body {
+    margin: 0;
+}
+.dark-background{
+background-color: var(--color-dark-blue);
+}
+.gray-background{
+background-color: var(--color-gray);
+}
+.white-background{
+background-color: var(--color-white);
+}
+.blue-background{
+    background-color: var(--color-blue);
+    }
+
+.sign-up .blue-background{
+    padding:6rem 2rem;
+    border-radius: 0.5rem;
+    color: var(--color-white);
+}
+.sign-up .wrapper{
+    padding:6rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.hero{
+    display: flex;
+    
+    
+}
+.hero .title{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 1rem;
+}
+.hero h1{
+   font-size: 48px;
+   color: #f9faf8;
+   font-weight: 900;
+}
+.hero p{
+    font-size: 18px;
+    color: #e5e7eb;
+ }
+ .hero .image{
+   background-color: var(--color-gray);
+width: 50%; }
+
+.button{
+    background-color:var(--color-blue) ;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    border-radius:0.5rem;
+    text-decoration: none;
+    color: var(--color-white);
+}
+.info .wrapper{
+  display: flex;
+  justify-content: space-between;
+ 
+  
+}
+.info .item img{
+    border: solid var(--color-blue);
+    border-radius: 8px;
+    width: 10rem;
+    height: 10rem;
+    padding: 0;
+    gap: 1rem;
+}
+.info .title{
+    text-align: center;
+    gap: 1rem;
+}
+.quote{
+  
+}
+.quote .autor{
+    text-align: right;
+}
+.sign-up{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    padding:6rem 2rem;
+}
+footer{
+    padding:6rem 2rem;
+    text-align: center;
+    color: var(--color-white);
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
